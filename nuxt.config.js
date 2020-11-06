@@ -1,4 +1,5 @@
 export default {
+  // loading: '~/components/LoadingBar.vue',
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'e-Commerce & Reservation platform for Travel Agencies | Travel Key Gateway',
@@ -22,30 +23,6 @@ export default {
     '@/assets/lib/font-awesome/css/font-awesome.min.css',
   ],
 
-  // router: {
-  //   extendRoutes(routes, resolve) {
-  //     routes.push({
-  //         name: 'home',
-  //         path: '/',
-  //         component: resolve(__dirname, 'pages/index.vue')
-  //     },
-  //     {
-  //       name: 'travel-ecommerce-platform',
-  //       path: '/travel-ecommerce-platform',
-  //       component: resolve(__dirname, 'pages/TravelEPlatform.vue')
-  //     },
-  //     {
-  //       name: 'travel-tech-white-label',
-  //       path: '/travel-tech-white-label',
-  //       component: resolve(__dirname, 'pages/TravelApi.vue')
-  //     },
-  //     {
-  //       name: 'universal-api',
-  //       path: '/universal-api',
-  //       component: resolve(__dirname, 'pages/UniversalApi.vue')
-  //     })
-  //   }
-  // },
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
   ],

@@ -6,7 +6,23 @@
 </template>
 
 <script>
-export default {};
+export default {
+
+  asyncData(){
+    return new Promise((resolve, reject) => {
+      setTimeout(function () {
+        resolve({})
+      },5000)
+    })
+  },
+  //   mounted () {
+  //   this.$nextTick(() => {
+  //     this.$nuxt.$loading.start()
+  //     setTimeout(() => this.$nuxt.$loading.finish(), 2000)
+  //   })
+  // }
+
+};
 </script>
 
 <style>
