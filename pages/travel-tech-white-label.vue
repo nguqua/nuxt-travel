@@ -29,7 +29,7 @@
    <div class="container">
     <div class="row align-items-center flex-column-reverse flex-md-row">
      <div class="col-md-5">
-      <img src="https://www.tweetworldtravel.com.au/images/customer-support.png" alt="white label services" class="img-fluid" />
+      <img data-aos="zoom-in" data-aos-delay="500" src="https://www.tweetworldtravel.com.au/images/customer-support.png" alt="white label services" class="img-fluid" />
      </div>
      <div class="col-md-7" style="text-align: justify;">
       <h5 class="font-weight-b600">Why Tweet World Travel</h5>
