@@ -129,16 +129,6 @@
         </div>
       </div>
     </section>
-    <section>
-        <p v-if="$fetchState.pending">Fetching mountains...</p>
-  <p v-else-if="$fetchState.error">An error occurred :(</p>
-  <div v-else>
-    <ul>
-      <li v-for="mountain of mountains" :key="mountain.id">{{ mountain.title }}</li>
-    </ul>
-    <button @click="$fetch">Refresh</button>
-  </div>
-    </section>
   </div>
 </template>
 
@@ -146,16 +136,6 @@
 <script>
 
 export default {
-  data() {
-      return {
-        mountains: []
-      }
-    },
-    async fetch() {
-      this.mountains = await fetch(
-        'https://api.nuxtjs.dev/mountains'
-      ).then(res => res.json())
-    },
   transition: 'slide-bottom',
   head: {
     title:

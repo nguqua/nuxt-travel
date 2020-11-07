@@ -1,6 +1,7 @@
 <template>
   <div>
     <NavMenu />
+    <!-- <Menu /> -->
     <Nuxt />
     <div style="height: 70px;"></div>
     <Footer />

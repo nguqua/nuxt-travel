@@ -19,7 +19,12 @@
                 Travel E-commerce Platform
               </NuxtLink>
             </li>
-
+            <li>
+              <mega-menu />
+            </li>
+                        <li>
+              <mega-menu />
+            </li>
             <li>
               <NuxtLink to="/travel-tech-white-label">
                 White Label
